@@ -13,7 +13,6 @@ export function Footer() {
           <div>
             <h4 className="text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#prayer-times" className="text-white/70 hover:text-white transition-colors">Prayer Times</a></li>
               <li><a href="#about" className="text-white/70 hover:text-white transition-colors">About Us</a></li>
               <li><a href="#programs" className="text-white/70 hover:text-white transition-colors">Programs</a></li>
               <li><a href="#contact" className="text-white/70 hover:text-white transition-colors">Contact</a></li>

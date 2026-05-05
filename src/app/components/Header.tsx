@@ -18,7 +18,6 @@ export function Header() {
 
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#prayer-times" className="text-foreground hover:text-primary transition-colors">Prayer Times</a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
             <a href="#programs" className="text-foreground hover:text-primary transition-colors">Programs</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
@@ -44,7 +43,6 @@ export function Header() {
         {isOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-3">
             <a href="#home" className="block text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#prayer-times" className="block text-foreground hover:text-primary transition-colors">Prayer Times</a>
             <a href="#about" className="block text-foreground hover:text-primary transition-colors">About</a>
             <a href="#programs" className="block text-foreground hover:text-primary transition-colors">Programs</a>
             <a href="#contact" className="block text-foreground hover:text-primary transition-colors">Contact</a>
